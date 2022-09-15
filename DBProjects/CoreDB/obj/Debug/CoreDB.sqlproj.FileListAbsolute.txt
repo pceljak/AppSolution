@@ -1,0 +1,10 @@
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.dacpac
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.dll
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\bin\Debug\CoreDB.pdb
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.sqlproj.AssemblyReference.cache
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\Model.xml
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\refactor.xml
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\postdeploy.sql
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\predeploy.sql
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.dll
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\obj\Debug\CoreDB.pdb

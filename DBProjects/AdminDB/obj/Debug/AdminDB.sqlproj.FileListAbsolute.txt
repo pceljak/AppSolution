@@ -1,0 +1,6 @@
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.sqlproj.AssemblyReference.cache
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.dll
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\AdminDB\obj\Debug\AdminDB.pdb
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.dacpac
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.dll
+C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\AdminDB\bin\Debug\AdminDB.pdb

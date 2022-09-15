@@ -1,0 +1,87 @@
+8.9.2022. 23:08:53	This log contains information about the import schema operation into project 'CoreDB' on computer 'CEKI' by user 'patri'.
+8.9.2022. 23:08:53	Import of database schema has started.
+8.9.2022. 23:08:57	Gathering database credentials
+8.9.2022. 23:08:57	Gathering database options
+8.9.2022. 23:08:57	Gathering generic database scoped configuration option
+8.9.2022. 23:08:57	Gathering users
+8.9.2022. 23:08:57	Gathering roles
+8.9.2022. 23:08:57	Gathering application roles
+8.9.2022. 23:08:57	Gathering role memberships
+8.9.2022. 23:08:57	Gathering filegroups
+8.9.2022. 23:08:57	Gathering full-text catalogs
+8.9.2022. 23:08:57	Gathering assemblies
+8.9.2022. 23:08:57	Gathering certificates
+8.9.2022. 23:08:57	Gathering asymmetric keys
+8.9.2022. 23:08:57	Gathering symmetric keys
+8.9.2022. 23:08:57	Gathering encrypted symmetric keys
+8.9.2022. 23:08:57	Gathering schemas
+8.9.2022. 23:08:57	Gathering XML schema collections
+8.9.2022. 23:08:57	Gathering user-defined data types
+8.9.2022. 23:08:57	Gathering user-defined types
+8.9.2022. 23:08:57	Gathering table types
+8.9.2022. 23:08:57	Gathering unique keys for table types
+8.9.2022. 23:08:57	Gathering primary keys for table types
+8.9.2022. 23:08:57	Gathering indexes for table types
+8.9.2022. 23:08:57	Gathering check constraints for table types
+8.9.2022. 23:08:57	Gathering default constraints for table types
+8.9.2022. 23:08:57	Gathering partition functions
+8.9.2022. 23:08:57	Gathering partition schemes
+8.9.2022. 23:08:57	Gathering functions
+8.9.2022. 23:08:57	Gathering encrypted functions
+8.9.2022. 23:08:57	Gathering aggregates
+8.9.2022. 23:08:57	Gathering procedures
+8.9.2022. 23:08:57	Gathering encrypted procedures
+8.9.2022. 23:08:57	Gathering tables
+8.9.2022. 23:08:57	Gathering primary keys
+8.9.2022. 23:08:57	Gathering unique constraints
+8.9.2022. 23:08:57	Gathering foreign keys
+8.9.2022. 23:08:57	Gathering default constraints
+8.9.2022. 23:08:57	Gathering check constraints
+8.9.2022. 23:08:57	Gathering views
+8.9.2022. 23:08:57	Gathering encrypted views
+8.9.2022. 23:08:57	Gathering indexes
+8.9.2022. 23:08:57	Gathering statistics
+8.9.2022. 23:08:57	Gathering full-text index stoplists
+8.9.2022. 23:08:57	Gathering search property lists
+8.9.2022. 23:08:57	Gathering search properties
+8.9.2022. 23:08:57	Gathering full-text indexes
+8.9.2022. 23:08:57	Gathering column store indexes
+8.9.2022. 23:08:57	Gathering spatial indexes
+8.9.2022. 23:08:57	Gathering XML indexes
+8.9.2022. 23:08:57	Gathering Selective XML indexes
+8.9.2022. 23:08:57	Gathering encrypted triggers
+8.9.2022. 23:08:57	Gathering triggers
+8.9.2022. 23:08:57	Gathering encrypted and clr ddl triggers
+8.9.2022. 23:08:57	Gathering ddl triggers
+8.9.2022. 23:08:57	Creating edge constraints
+8.9.2022. 23:08:57	Gathering synonyms
+8.9.2022. 23:08:57	Gathering defaults
+8.9.2022. 23:08:57	Gathering data constraint uddt bindings
+8.9.2022. 23:08:57	Gathering rules
+8.9.2022. 23:08:57	Gathering data constraint uddt bindings
+8.9.2022. 23:08:57	Gathering message types
+8.9.2022. 23:08:57	Gathering queues
+8.9.2022. 23:08:57	Gathering contracts
+8.9.2022. 23:08:57	Gathering services
+8.9.2022. 23:08:57	Gathering event notifications
+8.9.2022. 23:08:57	Gathering remote service bindings
+8.9.2022. 23:08:57	Gathering broker priorities
+8.9.2022. 23:08:57	Gathering signatures
+8.9.2022. 23:08:57	Gathering data compression options
+8.9.2022. 23:08:57	Gathering sequence types
+8.9.2022. 23:08:57	Gathering security policies
+8.9.2022. 23:08:57	Gather column encryption keys
+8.9.2022. 23:08:57	Gathering column master keys
+8.9.2022. 23:08:57	Gathering external data sources
+8.9.2022. 23:08:57	Gathering external file formats
+8.9.2022. 23:08:57	Gathering external tables
+8.9.2022. 23:08:57	Gathering extended properties
+8.9.2022. 23:08:57	Gathering assemblies
+8.9.2022. 23:08:57	Gathering credentials
+8.9.2022. 23:08:57	Gathering logins
+8.9.2022. 23:08:57	Gathering server audits
+8.9.2022. 23:08:58	Scanning project for duplicate elements
+8.9.2022. 23:08:58	Finished duplicate element processing
+8.9.2022. 23:09:00	Finished importing database.
+8.9.2022. 23:09:00	A summary of the import was saved to the following location: C:\Users\patri\Documents\Mentoriranje\AppSolution\DBProjects\CoreDB\Import Schema Logs\CoreDB_20220908090853.log
+8.9.2022. 23:09:00	Click Finish to continue...

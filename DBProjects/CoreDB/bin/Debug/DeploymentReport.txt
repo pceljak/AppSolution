@@ -1,0 +1,41 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [coredbadmin] (User)
+       Role Membership: <unnamed> (Role Membership)
+       [Area] (Schema)
+       [dbo].[Countries] (Table)
+       [dbo].[Countries_History] (Table)
+       [dbo].[Districts] (Table)
+       [dbo].[Districts_History] (Table)
+       [dbo].[Employees] (Table)
+       [dbo].[Employees_History] (Table)
+       [dbo].[Genders] (Table)
+       [dbo].[Genders_History] (Table)
+       [dbo].[NationalIdTypes] (Table)
+       [dbo].[Places] (Table)
+       [dbo].[Places_History] (Table)
+       [dbo].[Regions] (Table)
+       [dbo].[Regions_History] (Table)
+       [dbo].[FK_Districts_Regions] (Foreign Key)
+       [dbo].[FK_Employees_Genders] (Foreign Key)
+       [dbo].[FK_Employees_NationalIdTypes] (Foreign Key)
+       [dbo].[FK_Employees_Places] (Foreign Key)
+       [dbo].[FK_Places_Districts] (Foreign Key)
+       [dbo].[FK_Places_Regions] (Foreign Key)
+       [dbo].[FK_Regions_Countries] (Foreign Key)
+       [dbo].[vArea] (View)
+       [dbo].[vArea].[MS_DiagramPane1] (Extended Property)
+       [dbo].[vArea].[MS_DiagramPane2] (Extended Property)
+       [dbo].[vArea].[MS_DiagramPaneCount] (Extended Property)
+
+** Supporting actions

@@ -1,0 +1,55 @@
+﻿** Highlights
+     Tables that will be rebuilt
+       None
+     Clustered indexes that will be dropped
+       None
+     Clustered indexes that will be created
+       None
+     Possible data issues
+       None
+
+** User actions
+     Create
+       [admindbadmin] (User)
+       Role Membership: <unnamed> (Role Membership)
+       [dbo].[Applications] (Table)
+       [dbo].[Applications_History] (Table)
+       [dbo].[Authorizations] (Table)
+       [dbo].[Authorizations_History] (Table)
+       [dbo].[Calendar] (Table)
+       [dbo].[RoleAuthorizations] (Table)
+       [dbo].[Roles] (Table)
+       [dbo].[Roles_History] (Table)
+       [dbo].[UserApplications] (Table)
+       [dbo].[Users] (Table)
+       [dbo].[Users_History] (Table)
+       [dbo].[FK_RoleAuthorizations_Authorizations] (Foreign Key)
+       [dbo].[FK_RoleAuthorizations_Roles] (Foreign Key)
+       [dbo].[FK_UserApplications_Applications] (Foreign Key)
+       [dbo].[FK_UserApplications_Roles] (Foreign Key)
+       [dbo].[FK_UserApplications_Users] (Foreign Key)
+       [dbo].[GetRoleAuthorizations] (Function)
+       [dbo].[GetUserApplications] (Function)
+       [dbo].[crud_ApplicationsDelete] (Procedure)
+       [dbo].[crud_ApplicationsInsert] (Procedure)
+       [dbo].[crud_ApplicationsRead] (Procedure)
+       [dbo].[crud_ApplicationsUpdate] (Procedure)
+       [dbo].[crud_AuthorizationsDelete] (Procedure)
+       [dbo].[crud_AuthorizationsInsert] (Procedure)
+       [dbo].[crud_AuthorizationsRead] (Procedure)
+       [dbo].[crud_AuthorizationsUpdate] (Procedure)
+       [dbo].[crud_Log] (Procedure)
+       [dbo].[crud_RoleAuthorizationsDelete] (Procedure)
+       [dbo].[crud_RoleAuthorizationsInsert] (Procedure)
+       [dbo].[crud_RolesDelete] (Procedure)
+       [dbo].[crud_RolesInsert] (Procedure)
+       [dbo].[crud_RolesRead] (Procedure)
+       [dbo].[crud_RolesUpdate] (Procedure)
+       [dbo].[crud_UserApplicationsDelete] (Procedure)
+       [dbo].[crud_UserApplicationsInsert] (Procedure)
+       [dbo].[crud_UsersDelete] (Procedure)
+       [dbo].[crud_UsersInsert] (Procedure)
+       [dbo].[crud_UsersRead] (Procedure)
+       [dbo].[crud_UsersUpdate] (Procedure)
+
+** Supporting actions

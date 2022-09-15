@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DBProjects", "DBProjects", "{76225311-8004-46EB-8F94-68E0FFE9B9E2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Task Scheduler", "Task Scheduler", "{B382BDA3-3D3E-49AA-B8A9-34B7FDCF604B}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Jobs", "Jobs", "{655C70AF-0995-415D-BF24-37074AD8A730}"
+	ProjectSection(SolutionItems) = preProject
+		DBProjects\Task Scheduler\Jobs\TaskSchedulerJob.bat = DBProjects\Task Scheduler\Jobs\TaskSchedulerJob.bat
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{97CFF587-8EFA-4517-B92E-1E62579D9C4B}"
+	ProjectSection(SolutionItems) = preProject
+		DBProjects\Task Scheduler\Scripts\TaskSchedulerJobScript.sql = DBProjects\Task Scheduler\Scripts\TaskSchedulerJobScript.sql
+	EndProjectSection
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CoreDB", "DBProjects\CoreDB\CoreDB.sqlproj", "{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3}"
+EndProject
+Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdminDB", "DBProjects\AdminDB\AdminDB.sqlproj", "{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B382BDA3-3D3E-49AA-B8A9-34B7FDCF604B} = {76225311-8004-46EB-8F94-68E0FFE9B9E2}
+		{655C70AF-0995-415D-BF24-37074AD8A730} = {B382BDA3-3D3E-49AA-B8A9-34B7FDCF604B}
+		{97CFF587-8EFA-4517-B92E-1E62579D9C4B} = {B382BDA3-3D3E-49AA-B8A9-34B7FDCF604B}
+		{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3} = {76225311-8004-46EB-8F94-68E0FFE9B9E2}
+		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8} = {76225311-8004-46EB-8F94-68E0FFE9B9E2}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {AF606440-65B3-455D-8A11-6B8BA0905364}
+	EndGlobalSection
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 1
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://dev.azure.com/patrikceljak99
+		SccLocalPath0 = .
+	EndGlobalSection
+EndGlobal
