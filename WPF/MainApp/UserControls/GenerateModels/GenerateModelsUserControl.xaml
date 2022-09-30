@@ -1,0 +1,52 @@
+﻿<UserControl x:Class="MainApp.UserControls.GenerateModelsUserControl"
+             xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+             xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
+             xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+             mc:Ignorable="d" 
+             d:DesignHeight="600" d:DesignWidth="800">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="1*"></ColumnDefinition>
+            <ColumnDefinition Width="2*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+        <TextBlock Grid.ColumnSpan="2" FontSize="25" Padding="5">Generate models</TextBlock>
+        <Rectangle Grid.ColumnSpan="2" Grid.Row="1" Height="1" Width="1000" Fill="Gray" Margin="5"/>
+        <TextBlock Grid.Row="2" Padding="10">Select server</TextBlock>
+        <ComboBox Grid.Row="2" Grid.Column="1" x:Name="cbxServerList" SelectionChanged="cbxServerList_SelectionChanged"></ComboBox>
+        <!--error placeholder -->
+        <TextBlock Grid.Row="3" Padding="10">Select database</TextBlock>
+        <ComboBox Grid.Row="3" Grid.Column="1" x:Name="cbxDatabaseList" SelectionChanged="cbxDatabaseList_SelectionChanged"></ComboBox>
+        <!--error placeholder -->
+        <TextBlock Grid.Row="4" Padding="10">Select tables</TextBlock>
+        <DataGrid Grid.Row="5" Grid.ColumnSpan="2" x:Name="dgTableList">
+            <DataGrid.Columns>
+                <!-- <DataGridCheckBoxColumn Header="Generate"></DataGridCheckBoxColumn>
+                <DataGridTextColumn Header="Table name" ></DataGridTextColumn> -->
+            </DataGrid.Columns>
+        </DataGrid>
+        <TextBlock Grid.Row="6" Padding="10">Select views</TextBlock>
+        <DataGrid Grid.Row="7" Grid.ColumnSpan="2" x:Name="dgViewList">
+        </DataGrid>
+        <TextBlock Grid.Row="8" Padding="10">Define namespace for models</TextBlock>
+        <TextBox Grid.Row="8" Grid.Column="1"></TextBox>
+        <!--error placeholder -->
+        <TextBlock Grid.Row="9" Padding="10">Select save folder</TextBlock>
+        <StackPanel Grid.Row="9" Grid.Column="1" Orientation="Horizontal">
+            <TextBox Width="150"></TextBox>
+            <Button>Browse</Button>
+        </StackPanel>
+    </Grid>
+</UserControl>

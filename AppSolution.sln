@@ -21,6 +21,27 @@ Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "CoreDB", "DBProjects\CoreDB
 EndProject
 Project("{00D1A9C2-B5F0-4AF3-8072-F6C62B433612}") = "AdminDB", "DBProjects\AdminDB\AdminDB.sqlproj", "{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}"
 EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Class Libraries", "Class Libraries", "{D83493EA-9446-47E8-AB06-140100E939C9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WPF", "WPF", "{6B28487A-B5DB-4316-A29C-A6FB7F705AB2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "WCF", "WCF", "{45849E9E-0393-40F1-948A-E866162A0784}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "NETCore", "NETCore", "{303001C8-1A46-41AE-A142-0948EB5D6296}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "MVC", "MVC", "{0B909854-E552-4E08-9141-C52DF638247C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Web Forms", "Web Forms", "{1FF1F43D-781B-478F-92BF-5C43CCBB5104}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainApp", "WPF\MainApp\MainApp.csproj", "{CD25E9E6-CB95-422D-82E5-6F26D64C452B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Class Libraries\Common\Common.csproj", "{AE0DBA84-3C47-4234-A3EE-46239552C140}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Files", "Files", "{E50AE632-FFBA-403F-B857-4804541E3647}"
+	ProjectSection(SolutionItems) = preProject
+		.gitignore = .gitignore
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -37,6 +58,14 @@ Global
 		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Release|Any CPU.Build.0 = Release|Any CPU
 		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{CD25E9E6-CB95-422D-82E5-6F26D64C452B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CD25E9E6-CB95-422D-82E5-6F26D64C452B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CD25E9E6-CB95-422D-82E5-6F26D64C452B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CD25E9E6-CB95-422D-82E5-6F26D64C452B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AE0DBA84-3C47-4234-A3EE-46239552C140}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AE0DBA84-3C47-4234-A3EE-46239552C140}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AE0DBA84-3C47-4234-A3EE-46239552C140}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AE0DBA84-3C47-4234-A3EE-46239552C140}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -47,14 +76,10 @@ Global
 		{97CFF587-8EFA-4517-B92E-1E62579D9C4B} = {B382BDA3-3D3E-49AA-B8A9-34B7FDCF604B}
 		{C0AB7302-9E77-42C2-8FAB-B1F01409DBA3} = {76225311-8004-46EB-8F94-68E0FFE9B9E2}
 		{442E8F2E-EA0D-4C52-9B84-9826922CF1C8} = {76225311-8004-46EB-8F94-68E0FFE9B9E2}
+		{CD25E9E6-CB95-422D-82E5-6F26D64C452B} = {6B28487A-B5DB-4316-A29C-A6FB7F705AB2}
+		{AE0DBA84-3C47-4234-A3EE-46239552C140} = {D83493EA-9446-47E8-AB06-140100E939C9}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {AF606440-65B3-455D-8A11-6B8BA0905364}
-	EndGlobalSection
-	GlobalSection(TeamFoundationVersionControl) = preSolution
-		SccNumberOfProjects = 1
-		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
-		SccTeamFoundationServer = https://dev.azure.com/patrikceljak99
-		SccLocalPath0 = .
 	EndGlobalSection
 EndGlobal

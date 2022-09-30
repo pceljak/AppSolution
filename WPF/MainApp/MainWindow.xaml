@@ -1,0 +1,36 @@
+﻿<Window x:Class="MainApp.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:uc="clr-namespace:MainApp.UserControls"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="1000">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="399*"/>
+            <ColumnDefinition Width="601*"/>
+        </Grid.ColumnDefinitions>
+        <TabControl Grid.ColumnSpan="2">
+            <TabItem Header="Generate models" IsSelected="True">
+                <StackPanel>
+                    <uc:GenerateModelsUserControl />
+                    <StackPanel Orientation="Horizontal" HorizontalAlignment="Right" Margin="50">
+                        <Button Width="70" Height="25">Generate</Button>
+                        <Button Width="70" Height="25">Cancel</Button>
+                        <Button Width="70" Height="25">Close</Button>
+                    </StackPanel>
+                </StackPanel>
+            </TabItem>
+            <TabItem Header="Administer user rights">
+                <uc:AdministrateUserRightsUserControl />
+            </TabItem>
+            <TabItem Header="Data encryption">
+                <uc:DataEncryptionUserControl />
+            </TabItem>
+            <TabItem Header="Chat">
+                <uc:ChatUserControl />
+            </TabItem>
+        </TabControl>
+    </Grid>
+</Window>

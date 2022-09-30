@@ -96,7 +96,4 @@
   <ItemGroup>
     <PostDeploy Include="Scripts\Script.PostDeployment1.sql" />
   </ItemGroup>
-  <ItemGroup>
-    <None Include="Snapshots\CoreDB_20220915_20-25-13.dacpac" />
-  </ItemGroup>
 </Project>
